@@ -1,0 +1,4 @@
+enum OwnBluetoothState{
+  CONNECTED,
+  DISCONNECTED
+}

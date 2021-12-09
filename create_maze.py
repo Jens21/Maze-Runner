@@ -14,7 +14,7 @@ class Maze_1:
     prob_to_turn_while_going_back=0.05
     prob_to_to_go_straight_ahead=0.8
 
-    walkable_parts=1000
+    walkable_parts=2000
 
     width=10
     height=10
@@ -198,9 +198,9 @@ class Maze_3:
     width=10
     height=10
 
-    n_pre_init_spots=300
+    n_pre_init_spots=500
 
-    circle_radius=50
+    circle_radius=25
 
     def __init__(self, width, height):
         self.width=width
@@ -316,8 +316,8 @@ def show_maze(maze):
 
 if __name__=="__main__":
 
-    width=100
-    height=100
+    width=50
+    height=50
 
     #maze=Maze_1(width, height).create_maze()
     #maze=Maze_2(width, height).create_maze()
